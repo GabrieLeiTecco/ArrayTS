@@ -17,6 +17,7 @@ if (isNaN(max) == true){
         let num : number = Number(prompt("Digite o número da posição "+l+": "))
         if(isNaN(num) == true){
             prompt("Digita número irmao")
+            break
         }else{
             caixa.push(num)
             i++
